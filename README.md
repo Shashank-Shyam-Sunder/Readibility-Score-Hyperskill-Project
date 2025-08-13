@@ -99,18 +99,18 @@ This text should be understood in average by 11.5 year olds.
 ```
 readability-score-analyzer/
 ├── Readability Score (Python)/
-│   ├── task/
-│   │   ├── readability/
-│   │   │   ├── readability.py          # Main analysis script
-│   │   │   ├── test_file.txt           # Sample text for testing
-│   │   │   ├── longman_words.txt       # Longman Communication 3000 wordlist
-│   │   │   └── file_path_verification.py
-│   │   ├── test/                       # Test files
-│   │   └── tests.py
-│   └── [Various lesson folders]        # Course structure files
+│   └── task/
+│       └── readability/
+│           ├── readability.py          # Main analysis script
+│           ├── test_file.txt           # Sample text for testing
+│           ├── longman_words.txt       # Longman Communication 3000 wordlist
+│           └── file_path_verification.py
 ├── requirements.txt                     # Project dependencies
+├── LICENSE                             # MIT License
 └── README.md                           # This file
 ```
+
+**Note**: This repository is configured to only track the core readability analysis files. All other course materials and auxiliary files are git-ignored to keep the repository focused on the essential readability functionality.
 
 ## 🔧 Technical Details
 
