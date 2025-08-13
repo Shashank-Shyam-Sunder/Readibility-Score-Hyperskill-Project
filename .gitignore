@@ -7,6 +7,9 @@
 !Readability Score (Python)/task/readability/
 !Readability Score (Python)/task/readability/**
 
+# Exclude Python cache files from readability folder
+Readability Score (Python)/task/readability/__pycache__/
+
 # Keep essential project files
 !README.md
 !LICENSE
