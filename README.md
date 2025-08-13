@@ -35,7 +35,7 @@ cd readability-score-analyzer
 
 2. Install required dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirements_project.txt
 pip install pyphen  # Additional dependency for syllable counting
 ```
 
@@ -105,7 +105,7 @@ readability-score-analyzer/
 │           ├── test_file.txt           # Sample text for testing
 │           ├── longman_words.txt       # Longman Communication 3000 wordlist
 │           └── file_path_verification.py
-├── requirements.txt                     # Project dependencies
+├── requirements_project.txt             # Project dependencies
 ├── LICENSE                             # MIT License
 └── README.md                           # This file
 ```
